@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing:border-box;
+        }
+        body{
+            width:100%;
+            margin:0;
+            background-color: grey;
+        }
+        img{
+           width:100px;
+           height: 100px; 
+        }
+        h3{
+            border: 3px double black;
+            font-size:15px;
+            width:120px;
+            text-align:center;
+            position: relative;
+            top:30px;
+            background-color:white;
+        }
+        ul{
+            padding:0;
+            list-style-type:none;
+        }
+        img{
+            border:1px solid black;
+            object-fit:cover;
+            object-position:center;
+        }
+        .top{
+            width:90%;
+            margin:0 auto;
+        }
+        .top>div{
+            display: inline-block;
+        }
+        .left{
+            width:25%;
+            position: relative;
+            top:70px;
+        }
+        .left ul{
+            position: relative;
+            right:50px;
+            text-align:right;
+        }
+        .left>img{
+            width:270px;
+            height: 270px;
+        }
+        .left h3{
+            position: relative;
+            left:70px;
+        }
+        .center{
+            width:40%;
+            position: relative;
+            bottom:150px;
+        }
+        .text-box{
+            border:6px double black;
+            text-align:center;
+            padding: 10px 30px;
+        }
+        .black-block{
+            background-color:black;
+            color:white;
+            width:90px;
+            margin:0 auto;
+        }
+        h1{
+            font-size:100px;
+            margin:0;
+            text-align:center;
+        }
+        .right{
+            width:25%;
+        }
+        .right img{
+            position: relative;
+            left:30px;
+            height: 400px;
+            width: 250px;
+        }
+        .right h3{
+            position: relative;
+            left:95px;
+            z-index:2;
+        }
+        .one img{
+            width:200px;
+            height: 100px;
+        }
+        .two img{
+            width:300px;
+            height: 150px;
+        }
+        .three img{
+            width:300px;
+            height: 150px;
+        }
+        .three{
+            position: relative;
+            top:-20px;
+        }
+        .three h3{
+            position: relative;
+            left: 80px;
+        }
+        .two{
+            position: relative;
+            top:20px;
+        }
+        .two h3{
+            position: relative;
+            left:80px;
+        }
+        .one{
+            position: relative;
+            top:20px;
+        }
+        .one h3{
+            position: relative;
+            left: 30px;
+        }
+        .bottom{
+            width:90%;
+            margin:0 auto;
+        }
+        .bottom>div{
+            display:inline-block;
+            width:30%;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="left">
+            <ul>
+                <li>HOME</li>
+                <li>LIFESTYLE</li>
+                <li>GALLERY</li>
+                <li>TRAVEL</li>
+            </ul>
+            <h3>Lorem</h3>
+            <img src="./img/img1.jpg" alt="img">
+        </div>
+        <div class="center">
+            <h1>gema</h1>
+            <div class="text-box">
+                <h2>LOVE YOU HUMBLE ANIMALS</H2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus laudantium odit laboriosam vel reprehenderit ex placeat maxime saepe nulla, adipisci, ullam labore minus non! Quidem repellat non accusantium atque voluptatibus!</p>
+                <div class="black-block">more</div>
+            </div>
+        </div>
+        <div class="right">
+            <h3>Lorem</h3>
+            <img src="./img/img2.jpg" alt="img"></div>
+    </div>
+    <div class="bottom">
+        <div class="one">
+            <h3>Lorem</h3>
+            <img src="./img/img3.jpg" alt="img">
+        </div>
+        <div class="two">
+            <h3>Lorem</h3>
+            <img src="./img/img4.jpg" alt="img">
+        </div>
+        <div class="three">
+            <h3>Lorem</h3>
+            <img src="./img/img5.jpg" alt="img">
+        </div>
+    </div>
+</body>
+</html>
